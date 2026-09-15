@@ -285,24 +285,32 @@ function Home() {
           the word of LORD
         </p>
 
-        <div className="relative mt-5 overflow-hidden rounded-[32px] bg-paper shadow-soft">
+        <div className="relative mt-5 overflow-hidden rounded-[32px] bg-banner shadow-soft">
           <img
-            src="/file_000000001e4c82118c3f10f74861d609.png"
+            src="/banner-day.webp"
             alt=""
-            className="absolute inset-0 h-full w-full scale-110 object-cover"
+            width={1008}
+            height={627}
+            decoding="async"
+            className="block w-full dark:hidden"
           />
-<div className="relative z-10 flex flex-col items-center px-7 py-10 text-center">
-              <span aria-hidden className="flex items-center gap-2.5 text-faint">
-                <span className="h-px w-6 bg-line" />
-                <span className="size-1.5 rotate-45 bg-forest/60" />
-                <span className="h-px w-6 bg-line" />
-              </span>
-              <p className="mt-5 font-serif text-[1.35rem] leading-[1.35] font-medium text-ink">
+          <img
+            src="/banner-night.webp"
+            alt=""
+            width={1008}
+            height={627}
+            decoding="async"
+            className="hidden w-full dark:block"
+          />
+          <div className="absolute inset-x-3 top-3 z-10">
+            <div className="glass glass-strong mx-auto max-w-72 rounded-[22px] px-4 py-3 text-center">
+              <p className="font-serif text-[15px] leading-snug font-medium text-ink">
                 &ldquo;Thy word is a lamp unto my feet.&rdquo;
               </p>
-              <p className="mt-3 font-sans text-[13px] tracking-[0.18em] text-muted uppercase">
+              <p className="mt-1.5 font-sans text-[10px] tracking-[0.16em] text-muted uppercase">
                 Psalm 119 · 105
-</p>
+              </p>
+            </div>
           </div>
         </div>
         <Link

@@ -30,6 +30,8 @@
   --orb-b: #b7cbb8;
   --orb-c: #e8c8bc;
 
+  --banner: #fafaf5;
+
   --header-h: 3.5rem;
   --tabbar-h: 5.25rem;
 }
@@ -60,6 +62,8 @@
   --orb-a: #2a3558;
   --orb-b: #3a2e1c;
   --orb-c: #1a2238;
+
+  --banner: #181e28;
 }
 
 @theme {
@@ -79,6 +83,7 @@
   --color-mark: var(--mark);
   --color-wash: var(--wash);
   --color-tint: var(--tint);
+  --color-banner: var(--banner);
 
   --color-background: var(--paper);
   --color-foreground: var(--ink);
